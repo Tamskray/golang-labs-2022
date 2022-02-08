@@ -15,4 +15,10 @@ func main() {
 
 	//Задание.
 	//1. Создайте 2 переменные  разных типов. Выпоните арифметические операции. Результат вывести
+	a := 10
+	b := -3.4
+	fmt.Printf("\na + b = %d", a+int(b))
+	fmt.Printf("\na + b = %d", a-int(b))
+	fmt.Printf("\na + b = %d", a*int(b))
+	fmt.Printf("\na + b = %d", a/int(b))
 }

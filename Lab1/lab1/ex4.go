@@ -28,4 +28,7 @@ func main() {
 
 	//Задание.
 	//1. Выпонить выражение: fmt.Println("c--     = ", c--)
+	c--
+	fmt.Println("\nc--     = ", c)
+	fmt.Println("c--     = ", c-1)
 }

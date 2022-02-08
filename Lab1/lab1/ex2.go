@@ -22,4 +22,7 @@ func main() {
 
 	//Задание.
 	//1. Создать целочисленную переменную (результат не отображать)
+	userInt := 10
+	var int32Value int32 = -15
+	fmt.Println(userInt, int32Value)
 }

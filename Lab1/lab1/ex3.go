@@ -19,5 +19,12 @@ func main() {
 
 	//Задание.
 	//1. Вывести типы всех переменных
+	fmt.Printf("Variables types -> %T, %T, %T, %T\n", userinit8, userinit16, userinit64, userautoinit)
+
 	//2. Присвоить переменной intVar переменные userinit16 и userautoinit. Результат вывести.
+	intVar = userautoinit
+	fmt.Printf("intVar = %d\n", intVar)
+
+	intVar = int(userinit16)
+	fmt.Printf("intVar = %d\n", intVar)
 }

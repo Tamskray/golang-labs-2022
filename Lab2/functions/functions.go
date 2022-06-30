@@ -1,8 +1,6 @@
-package main
+package functions
 
-import "fmt"
-
-func minElement(a int, b int, c int) {
+func MinElement(a int, b int, c int) int {
 	var array []int
 	array = append(array, a, b, c)
 
@@ -12,15 +10,21 @@ func minElement(a int, b int, c int) {
 			m = array[i]
 		}
 	}
-	fmt.Printf("Min -> %d", m)
+	//fmt.Printf("Min -> %d", m)
+	return m
 }
 
-func average(numbers ...int) {
+func Average(numbers ...int) int {
 	var sum = 0
 	var i = 0
 	for _, number := range numbers {
 		sum += number
 		i++
 	}
-	fmt.Println("\naverage = ", sum/i)
+	//fmt.Println("\naverage = ", sum/i)
+	return sum / i
+}
+
+func Equation() {
+	//
 }
